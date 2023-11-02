@@ -166,4 +166,4 @@ def train(
 
 if __name__ == '__main__':
 #  fire.Fire()
-    evaluation(model_dir="/home/maojingwei/nextcloud_data/data/maojingwei/files/diffusion_cifar10_model/")
+    evaluation(model_dir="/home/maojingwei/nextcloud_data/data/maojingwei/files/diffusion_cifar10_model/", tpu_name=None, bucket_name_prefix=None)
